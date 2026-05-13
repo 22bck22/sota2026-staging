@@ -1,6 +1,6 @@
-group,"No, I do not identify with a United States political party","Yes, the Democratic Party","Yes, the Green Party","Yes, the Libertarian Party","Yes, the Republican Party"
-Extremely informed,16,0,0,1,1,0,0,1,0,0,12,2,0,10
-Moderately informed,188,1,0,0,0,1,0,0,1,0,185,0,3,21
-Not at all informed,16,0,0,0,0,0,0,0,0,0,4,0,0,1
-Slightly informed,86,0,0,0,0,0,1,0,0,1,62,0,0,6
-Very informed,60,0,1,0,0,0,0,0,0,0,77,3,0,18
+group,"No, I do not identify with a United States political party","Yes, the Democratic Party","Yes, the Republican Party","Other Parties"
+Extremely informed,16,12,10,5
+Moderately informed,188,185,21,6
+Not at all informed,16,4,1,0
+Slightly informed,86,62,6,2
+Very informed,60,77,18,4
