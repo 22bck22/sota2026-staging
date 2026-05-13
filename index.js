@@ -1046,18 +1046,18 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.barChart({
-    section: "politics",
-    dataFile: "assets/data/politics/ceasefire",
-    showLegend: true,
-    groupLabelStyle:"aboveBar",
-    labelStyle:"aboveBar",
+//  sota.barChart({
+   // section: "politics",
+  //  dataFile: "assets/data/politics/ceasefire",
+ //   showLegend: true,
+ //   groupLabelStyle:"aboveBar",
+ //   labelStyle:"aboveBar",
     // margin: largemargin,
-    title: "Israel-Palestine Ceasefire",
-    subtitle:
-      "Regarding an Israel and Gaza ceasefire, which of the following statements do you most agree with?",
+//    title: "Israel-Palestine Ceasefire",
+ //   subtitle:
+  //    "Regarding an Israel and Gaza ceasefire, which of the following statements do you most agree with?",
     // 2025
-  });
+//  });
 
   sota.barChart({
     section: "politics",
