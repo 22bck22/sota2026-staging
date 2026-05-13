@@ -745,15 +745,15 @@ window.onload = () => {
     // 2025!
   });
 
-  sota.barChart({
-    section: "politics",
-    dataFile: "assets/data/politics/30-news_sources",
-    totalResp: 850,
-    displayPercentage: true,
-    title: "Staying Informed",
-    subtitle: "How do you get your news?",
+//  sota.barChart({
+//    section: "politics",
+//    dataFile: "assets/data/politics/30-news_sources",
+//    totalResp: 850,
+//    displayPercentage: true,
+ //   title: "Staying Informed",
+ //   subtitle: "How do you get your news?",
     // 2023!!
-  });
+ // });
 
   sota.barChart({
     section: "politics",
