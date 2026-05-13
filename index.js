@@ -301,26 +301,26 @@ window.onload = () => {
     // 2025!!
   });
 
-  sota.pieChart({
-    section: "general",
-    dataFile: "assets/data/general/US-residential",
-    sorted: false,
-    title: "U.S. Residence",
-    subtitle:
-      "If you live in the United States of America, are you a citizen and/or permanent resident of the U.S.?",
+//  sota.pieChart({
+ //   section: "general",
+  //  dataFile: "assets/data/general/US-residential",
+ //   sorted: false,
+  //  title: "U.S. Residence",
+  //  subtitle:
+   //   "If you live in the United States of America, are you a citizen and/or permanent resident of the U.S.?",
     // 2025!!
   });
 
-  sota.barChart({
-    section: "general",
-    dataFile: "assets/data/general/9-guardian-residence",
-    totalResp: 850,
-    displayPercentage: true,
-    title: "Parent and Guardian Residence",
-    subtitle:
-      "If you live in the United States of America, how many of your guardian(s) are citizens and/or permanent residents of the U.S.?",
+//  sota.barChart({
+  //  section: "general",
+    //dataFile: "assets/data/general/9-guardian-residence",
+    //totalResp: 850,
+    //displayPercentage: true,
+    //title: "Parent and Guardian Residence",
+    //subtitle:
+      //"If you live in the United States of America, how many of your guardian(s) are citizens and/or permanent residents of the U.S.?",
     // 2025!!
-  });
+//  });
 
   sota.barChart({
     section: "general",
