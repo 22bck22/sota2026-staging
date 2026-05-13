@@ -1,10 +1,10 @@
-group,Man,Woman
-Furrysexual,1,0
-Pansexual,2,7
-Demisexual,3,9
-Queer,3,14
+Group,Man,Woman
 Asexual,5,19
-Questioning,5,22
-Homosexual,20,14
 Bisexual,18,77
+Demisexual,3,9
 Heterosexual,317,336
+Homosexual,20,14
+Pansexual,2,7
+Queer,3,14
+Questioning,5,22
+Other,1,0
