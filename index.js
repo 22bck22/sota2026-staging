@@ -926,15 +926,15 @@ window.onload = () => {
     // 2025!
   });
 
-  sota.columnChart({
-    section: "politics",
-    dataFile: "assets/data/politics/33-blm",
-    showPercentage: true,
-    title: "Black Lives Matter",
-    subtitle:
-      'Do you support the Black Lives Matter movement — "Black Lives Matter (BLM) is an international activist movement, originating in the African-American community, that campaigns against violence and systemic racism toward black people” (Black Lives Matter, 2015).',
+//  sota.columnChart({
+//    section: "politics",
+//    dataFile: "assets/data/politics/33-blm",
+ //   showPercentage: true,
+//    title: "Black Lives Matter",
+//    subtitle:
+ //     'Do you support the Black Lives Matter movement — "Black Lives Matter (BLM) is an international activist movement, originating in the African-American community, that campaigns against violence and systemic racism toward black people” (Black Lives Matter, 2015).',
     // 2023!!
-  });
+//  });
 
   sota.pieChart({
     section: "politics",
