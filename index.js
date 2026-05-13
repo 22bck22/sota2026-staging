@@ -309,7 +309,7 @@ window.onload = () => {
   //  subtitle:
    //   "If you live in the United States of America, are you a citizen and/or permanent resident of the U.S.?",
     // 2025!!
-  });
+//  });
 
 //  sota.barChart({
   //  section: "general",
