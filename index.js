@@ -1752,6 +1752,14 @@ window.onload = () => {
     // 2023!!
   });
 
+  sota.pieChart({
+    section: "school",
+    dataFile: "assets/data/school/collegecounselor",
+    title: "External College Counselor",
+    subtitle: "Have you ever employed a college counselor from outside of Andover?",
+    // 2025!
+  });
+  
   sota.stackedBarChart({
     section: "school",
     dataFile: "assets/data/school/leavingxclassyear",
