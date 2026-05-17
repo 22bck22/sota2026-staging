@@ -798,7 +798,15 @@ window.onload = () => {
     // 2024!
   });
 
-    sota.stackedBarChart({
+ sota.pieChart({
+    section: "politics",
+    dataFile: "assets/data/politics/supportlegacy",
+    title: "Legacy Admissions",
+    subtitle: "Do you support legacy admissions at academic institutions?",
+    // 2025!
+  });
+
+  sota.stackedBarChart({
     section: "politics",
     dataFile: "assets/data/politics/legacysuppXlegacyandover",
     labelStyle: "onBar",
