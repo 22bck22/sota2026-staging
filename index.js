@@ -1733,16 +1733,6 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.barChart({
-    section: "school",
-    dataFile: "assets/data/school/120-leaving",
-    showLegend: true,
-    title: "Leaving Andover",
-    subtitle:
-      "Have you ever considered leaving Andover permanently or temporarily?",
-    // 2023!!
-  });
-
   sota.stackedBarChart({
     section: "school",
     dataFile: "assets/data/school/leavingxclassyear",
