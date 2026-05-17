@@ -695,6 +695,23 @@ window.onload = () => {
       "While at Andover, have you ever felt the need to censor yourself due to your political leaning?",
     // 2025!
   });
+  
+ sota.stackedBarChart({
+    section: "politics",
+    dataFile: "assets/data/politics/censorshipXpolitics",
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    inputIsPercentage: false,
+    sorted: false,
+    showLegend: false,
+    title: "Self Censorship by Political Leaning",
+    subtitle:
+      "Whether respondents felt the need to censor themselves due to their political leaning.",
+    // 2025
+  });
+
+  
 
   sota.barChart({
     section: "politics",
