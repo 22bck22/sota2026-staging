@@ -992,6 +992,13 @@ window.onload = () => {
     // 2023!!
   });
 
+ sota.pieChart({
+    section: "politics",
+    dataFile: "assets/data/politics/prisonreform",
+    title: "Prison Reform",
+    subtitle: "Do you believe that the current prison system in the United States should be altered?",
+    // 2025!
+  });  
   // sota.stackedBarChart({
   //   section: "politics",
   //   dataFile: "assets/data/politics/politicsXgender",
