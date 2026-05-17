@@ -1674,6 +1674,15 @@ window.onload = () => {
     // 2025!!
   });
 
+  sota.barChart({
+    section: "school",
+    dataFile: "assets/data/school/5_good",
+    // totalResp: 854,
+    title: "Grading Scale",
+    subtitle: 'Do you think a "5" is a good grade?',
+    // 2025!!
+  });
+  
   sota.bigNumber({
     section: "school",
     number: "3.54",
