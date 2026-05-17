@@ -590,7 +590,7 @@ window.onload = () => {
     dataFile: "assets/data/politics/24-political_affiliation",
     totalResp: 821,
     sorted: false,
-    pieRad: 200
+    pieRad: 200,
     title: "Political Affiliation",
     subtitle: "What is your political leaning?",
     // 2025
