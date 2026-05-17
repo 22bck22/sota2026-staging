@@ -1844,7 +1844,7 @@ window.onload = () => {
   //   // 2025 see correlation below
   // });
 
-  sota.stackedBarChart({
+  sota.barChart({
     section: "school",
     dataFile: "assets/data/school/learning_disabilityXaccomodation",
     labelStyle: "onBar",
