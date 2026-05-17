@@ -1694,6 +1694,16 @@ window.onload = () => {
 
   sota.barChart({
     section: "school",
+    dataFile: "assets/data/school/aiusage",
+    totalResp: 890,
+    title: "AI Usage",
+    subtitle:
+      "Student usage of AI.",
+    // 2023!!
+  });
+  
+  sota.barChart({
+    section: "school",
     dataFile: "assets/data/school/114-department_disparity",
     totalResp: 728,
     title: "Disparity between teachers",
