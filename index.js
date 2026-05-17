@@ -822,16 +822,6 @@ window.onload = () => {
 
   sota.pieChart({
     section: "politics",
-    dataFile: "assets/data/politics/equal-sexes",
-    title: "Equality of the Sexes",
-    subtitle:
-      "Do you support “advocacy of equality of the sexes and the establishment of the political, social, and economic rights of the female sex” (Oxford English Dictionary)?",
-    margin: margin,
-    // 2023!!
-  });
-
-  sota.pieChart({
-    section: "politics",
     dataFile: "assets/data/politics/advocacy-women",
     title: "Women's Rights",
     subtitle:
@@ -876,7 +866,7 @@ window.onload = () => {
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/36-immigration",
-    title: "Immigration & Border Security",
+    title: "Immigration by Geographical Region",
     subtitle:
       "Do you believe that the United States of America should increase border security?",
     // 2023!!
