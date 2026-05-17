@@ -719,8 +719,8 @@ window.onload = () => {
     dataFile: "assets/data/politics/29-news",
     totalResp: 850,
     displayPercentage: true,
-    title: "Getting Information",
-    subtitle: "Where do you get your news?",
+    title: "News Sources",
+    subtitle: "Where do you get your news? Editor's Note: The statistics represent the top six news sources out of 21 options respondents could choose from. Respondents were given the option to select more than one answer if applicable",
     // 2025!
   });
 
