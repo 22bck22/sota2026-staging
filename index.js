@@ -3714,30 +3714,6 @@ window.onload = () => {
     // 2025
   });
 
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/happyXsec",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Happiness & SEC",
-    subtitle:
-      "Whether respondents are happy at Andover correlated with their perceived socioeconomic status.",
-    // 2023!!
-  });
-
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/happyXgpa",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Happiness & GPA",
-    subtitle:
-      "Whether respondents are happy at Andover correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
-    // 2023!!
-  });
-
   //   sota.stackedBarChart({
   //   section: "wellness",
   //   dataFile: "assets/data/wellness/GPAXrelationship",
@@ -3749,19 +3725,6 @@ window.onload = () => {
   //     "Whether respondents are in a relationship correlated with their GPA. Editor's Note: Only data from the GPA range of 4.0 - 6.0 is used.",
   //   // 2025!!
   // });
-
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/happyXgrade",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Happiness & Class Year",
-    subtitle:
-      "Whether respondents are happy at Andover correlated with their class year.",
-    // 2023!!
-  });
-  
 
   sota.barChart({
     section: "wellness",
