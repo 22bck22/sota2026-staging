@@ -40,7 +40,7 @@ sota.sotaConfig.sections = [
   },
 
   {
-    slug: "",
+    slug: "school",
     name: "Education",
     colors: ["#812F54", "#AA7281", "#BF97A0", "#BF97A0", "#DCC5C3", "#EEE2E1", "#F5EDEC", "#FBF6F5"],
     blurb:
