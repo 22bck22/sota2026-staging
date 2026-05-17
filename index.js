@@ -1674,20 +1674,6 @@ window.onload = () => {
     // 2025!!
   });
 
-  sota.stackedColumnChart({
-    section: "school",
-    dataFile: "assets/data/school/collegexclassyear",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Andover and College",
-    subtitle:
-      "Do you think attending Andover affects your chances of attending a selective college?",
-    // 2023!!
-  });
-
   sota.bigNumber({
     section: "school",
     number: "3.54",
