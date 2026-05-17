@@ -795,20 +795,20 @@ window.onload = () => {
     // 2025!
   });
 
-    sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/DEIXyear",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: false,
-    sorted: false,
-    showLegend: false,
-    title: "Support for DEI Correlated with Class Year",
-    subtitle:
-      "Percentage of students of each grade that support DEI initiatives",
+//    sota.stackedBarChart({
+ //   section: "politics",
+//    dataFile: "assets/data/politics/DEIXyear",
+//    labelStyle: "onBar",
+//    groupLabelStyle: "onBar",
+//    displayPercentage: true,
+//    inputIsPercentage: false,
+//    sorted: false,
+//    showLegend: false,
+ //  title: "Support for DEI Correlated with Class Year",
+  //  subtitle:
+   //   "Percentage of students of each grade that support DEI initiatives",
     // 2025!
-  });
+//  });
 
 //  sota.columnChart({
 //    section: "politics",
