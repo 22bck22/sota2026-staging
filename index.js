@@ -1759,6 +1759,16 @@ window.onload = () => {
     subtitle: "Have you ever employed a college counselor from outside of Andover?",
     // 2025!
   });
+
+  sota.barChart({
+    section: "school",
+    dataFile: "assets/data/school/collegeselectionxgrade",
+    showLegend: true,
+    title: "Student Perception of Andover on College Admissions",
+    subtitle:
+      "Do you think attending Andover affects your changes of attending a selective college?",
+    // 2023!!
+  });
   
   sota.stackedBarChart({
     section: "school",
