@@ -652,7 +652,7 @@ window.onload = () => {
     inputIsPercentage: false,
     sorted: false,
     showLegend: false,
-    title: "Change in Political Beliefs in the Past Year",
+    title: "Change in Political Beliefs in the Past Year by Political Leaning",
     subtitle:
       "Whether respondents did or did not change beliefs by their political affiliations.",
     // 2025
