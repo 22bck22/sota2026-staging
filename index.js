@@ -667,7 +667,7 @@ window.onload = () => {
     inputIsPercentage: false,
     sorted: false,
     showLegend: false,
-    title: "Affiliation & Current Events",
+    title: "Political Awareness by Political Leaning",
     subtitle:
       "Respondents knowledge of current events correlated with their political affiliation",
     // 2025
