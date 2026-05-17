@@ -1686,6 +1686,7 @@ window.onload = () => {
   sota.barChart({
     section: "school",
     dataFile: "assets/data/school/114-department_disparity",
+    totalResp: 728,
     title: "Disparity between teachers",
     subtitle:
       "In which department(s), if any, is/are there an unreasonable grading disparity between teachers?",
