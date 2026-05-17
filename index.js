@@ -1644,9 +1644,9 @@ window.onload = () => {
   sota.lineGraph({
     section: "school",
     dataFile: "assets/data/school/111-gpa",
-    maxVal: 156,
+    maxVal: 20,
     title: "GPA",
-    subtitle: "What was your rounded Winter 2025-2026 GPA?",
+    subtitle: "What was your rounded Winter 2025-2026 GPA? Editor's note: Y-axis is representative of percentage",
     // 2023!!
   });
 
