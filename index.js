@@ -585,17 +585,6 @@ window.onload = () => {
 
   // --- POLITICS!! --
 
-  sota.barChart({
-    section: "politics",
-    dataFile: "assets/data/politics/40-dei",
-    totalResp: 821,
-    // shapeFile: "assets/svgs/pill-politics",
-    sorted: false,
-    title: "DEI Support",
-    subtitle: "Do you support Diversity, Equity and Inclusion (DEI) programs in the workplace and educational institutions — “a set of values and related policies and practices focused on establishing a group culture of equitable and inclusive treatment and on attracting and retaining a diverse group of participants, including people who have historically been excluded or discriminated against” (Merriam-Webster Dictionary)?"
-    // 2025
-  })
-
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/24-political_affiliation",
@@ -613,21 +602,6 @@ window.onload = () => {
     sorted: false,
     title: "Political Party",
     subtitle: "Do you identify with a United States political party?",
-    // 2025
-  });
-
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/affiliationXgender",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: false,
-    sorted: false,
-    showLegend: false,
-    title: "Gender & Affiliation",
-    subtitle:
-      "Gender makeup of respondents correlated with their political affliliation. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
     // 2025
   });
 
@@ -721,21 +695,6 @@ window.onload = () => {
     // 2025!
   });
 
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/affiliationXcensorship",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: false,
-    sorted: false,
-    showLegend: false,
-    title: "Affiliation & Censorship",
-    subtitle:
-      "Whether respondents felt the need to censor themselves due to their political affiliations.",
-    // 2025!
-  });
-
   sota.barChart({
     section: "politics",
     dataFile: "assets/data/politics/28-informed",
@@ -775,21 +734,6 @@ window.onload = () => {
 
   sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/affirmative_actionXclass",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: false,
-    sorted: false,
-    showLegend: false,
-    title: "Affirmative Action & Class Year",
-    subtitle:
-      "Whether respondents support affirmative action in institutions compared to class year.",
-    // 2024!
-  });
-
-  sota.stackedBarChart({
-    section: "politics",
     dataFile: "assets/data/politics/affirmative_actionXrace",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
@@ -800,21 +744,6 @@ window.onload = () => {
     title: "Affirmative Action & Race",
     subtitle:
       "Whether respondents support affirmative action in institutions compared to their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous Peoples of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2024!
-  });
-
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/affirmative_actionXsec",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: false,
-    sorted: false,
-    showLegend: false,
-    title: "Affirmative Action & Socioeconomic Status",
-    subtitle:
-      "Whether respondents support affirmative action in institutions compared to their Socioeconomic Status.",
     // 2024!
   });
 
@@ -853,21 +782,6 @@ window.onload = () => {
 
     sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/reverse_racismXyear",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: false,
-    sorted: false,
-    showLegend: false,
-    title: "Reverse Racism & Class Year",
-    subtitle:
-      "Whether respondents believe in reverse racism based on their class year.",
-    // 2025 TODO
-  });
-
-    sota.stackedBarChart({
-    section: "politics",
     dataFile: "assets/data/politics/legacysuppXlegacyandover",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
@@ -883,21 +797,6 @@ window.onload = () => {
 
     sota.stackedBarChart({
     section: "politics",
-    dataFile: "assets/data/politics/DEIXrace",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: false,
-    sorted: false,
-    showLegend: false,
-    title: "Support for DEI Correlated with Race",
-    subtitle:
-      "Percentage of students of each race that support DEI initiatives",
-    // 2025!
-  });
-
-    sota.stackedBarChart({
-    section: "politics",
     dataFile: "assets/data/politics/DEIXyear",
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
@@ -908,21 +807,6 @@ window.onload = () => {
     title: "Support for DEI Correlated with Class Year",
     subtitle:
       "Percentage of students of each grade that support DEI initiatives",
-    // 2025!
-  });
-
-      sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/DEIXAA",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: false,
-    sorted: false,
-    showLegend: false,
-    title: "Support for DEI Correlated with Support for Affirmative Action",
-    subtitle:
-      "Percentage of students who support affirmative action that support DEI initiatives",
     // 2025!
   });
 
@@ -1009,43 +893,6 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/abortionXgender",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: true,
-    showLegend: true,
-    title: "Abortion & Gender",
-    subtitle:
-      "Whether respondents believe people should have the right to have an abortion correlated to their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2024!!
-  }); 
-
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/prison_reformXincarceration",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    showLegend: true,
-    title: "Prison System",
-    subtitle:
-      "Do you believe that the current prison system in the United States of America should be altered?",
-    // 2023!!
-  });
-
-  sota.pieChart({
-    section: "politics",
-    dataFile: "assets/data/politics/israel-palestine",
-    showLegend: true,
-    title: "Israel-Palestine Education",
-    subtitle:
-      "In October 2023, The Phillipian published an editorial calling for increased education on Israel and Palestine. Do you feel the school has provided adequate education on Israel and Palestine?",
-    // 2023!!
-  });
-
 //  sota.barChart({
    // section: "politics",
   //  dataFile: "assets/data/politics/ceasefire",
@@ -1059,29 +906,6 @@ window.onload = () => {
     // 2025
 //  });
 
-  sota.barChart({
-    section: "politics",
-    dataFile: "assets/data/politics/drug-decriminalization",
-    // shapeFile: "assets/svgs/pill-politics",
-    title: "Decriminalization of Drugs",
-    subtitle:
-      "Do you believe that drugs should be decriminalized in the United States of America?",
-    // 2023!!
-  });
-
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/drugsXincarceration",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: true,
-    showLegend: true,
-    title: "Decriminalization of Drugs & Incarceration",
-    subtitle:
-      "Whether respondents believe drugs should be decriminalized compared to whether they know an incarcerated person.",
-    // 2025!
-  });
 
   // sota.stackedBarChart({
   //   section: "politics",
@@ -1133,20 +957,6 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.stackedBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/affiliationXguns",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    inputIsPercentage: true,
-    showLegend: true,
-    title: "Firearms & Political Affiliation",
-    subtitle:
-      "Respondents who own firearms correlated with their political affiliation.",
-    // 2023!!
-  });
-
   // sota.bigNumber({
   //   section: "politics",
   //   number: "92.7%",
@@ -1155,18 +965,7 @@ window.onload = () => {
   //     "of respondents believe that gun control laws in the United States should be stricter.",
   //     // 2022!!
   // });
-
-  sota.customBarChart({
-    section: "politics",
-    dataFile: "assets/data/politics/police",
-    shapeFile: "assets/svgs/handcuff",
-    title: "Police Reform",
-    subtitle:
-      "Do you believe that the current police system in the U.S. should be altered? ",
-    // 2025; here so svg works
-  });
-
-
+  
   sota.pieChart({
     section: "politics",
     dataFile: "assets/data/politics/gun-reform",
