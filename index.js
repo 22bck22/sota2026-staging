@@ -1646,7 +1646,7 @@ window.onload = () => {
     dataFile: "assets/data/school/111-gpa",
     maxVal: 20,
     title: "GPA",
-    subtitle: "What was your rounded Winter 2025-2026 GPA? Editor's note: Y-axis is representative of percentage",
+    subtitle: "What was your rounded Winter 2025-2026 GPA? Editor's note: Y-axis is representative of the percentage of students with corresponding GPA.",
     // 2023!!
   });
 
