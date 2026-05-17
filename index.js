@@ -40,7 +40,7 @@ sota.sotaConfig.sections = [
   },
 
   {
-    slug: "school",
+    slug: "",
     name: "Education",
     colors: ["#812F54", "#AA7281", "#BF97A0", "#BF97A0", "#DCC5C3", "#EEE2E1", "#F5EDEC", "#FBF6F5"],
     blurb:
@@ -1650,17 +1650,6 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.lineGraph({
-    section: "school",
-    dataFile: "assets/data/school/GPA2018",
-    maxVal: 6.0,
-    minVal: 5.0,
-    title: "Average GPA Since 2018",
-    subtitle:
-      "Editor's note: All GPA values above are from previous State of the Academy surveys.",
-    // 2023!!
-  });
-
   // GPA by gender bigNumber removed — 2026 PDF does not report specific averages by gender
 
  sota.stackedBarChart({
@@ -1673,41 +1662,6 @@ window.onload = () => {
     displayPercentage: true,
     title: "GPA and Gender",
     subtitle: "GPA distribution for Man and Woman respondents. Editor’s Note: Only data from the GPA range of 5.0 - 6.0 is used. Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
-  });
-
-  sota.stackedBarChart({
-    section: "school",
-    dataFile: "assets/data/school/GPAxsleep",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "GPA and Sleep",
-    // 2023!! TODO correlation
-  });
-
-    sota.stackedBarChart({
-    section: "school",
-    dataFile: "assets/data/school/GPAXrace",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "GPA and Race",
-
-    // 2025!! 
-  });
-
-  sota.multiLineGraph({
-    section: "school",
-    dataFile: "assets/data/school/GPAxvarsity",
-    displayPercentage: true,
-    maxVal: 24,
-    minWal: 0,
-    title: "GPA and Varsity Athlete",
     // 2023!!
   });
 
@@ -1741,17 +1695,6 @@ window.onload = () => {
     subtitle:
       "average hours spent on coursework daily, a decrease from 2025 (last year).",
     // 2025
-  });
-
-  sota.lineGraph({
-    section: "school",
-    dataFile: "assets/data/school/113-hours_on_coursework",
-    minVal: 2,
-    maxVal: 259,
-    title: "Hours on coursework",
-    subtitle:
-      "How many hours do you spend on coursework outside of class each day?",
-    // 2023! todo check
   });
 
   sota.barChart({
@@ -1829,17 +1772,6 @@ window.onload = () => {
 
   sota.pieChart({
     section: "school",
-    dataFile: "assets/data/school/121-teacher_care",
-    totalResp: 763,
-    sorted: false,
-    title: "Teacher Support",
-    subtitle:
-      "Do you think that the majority of your teachers care about your health and well-being?",
-    // 2025
-  });
-
-  sota.pieChart({
-    section: "school",
     dataFile: "assets/data/school/122-children",
     sorted: false,
     showLegend: true,
@@ -1855,16 +1787,6 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.pieChart({
-    section: "school",
-    dataFile: "assets/data/school/124-family_relationship",
-    sorted: false,
-    showLegend: true,
-    title: "Andover and family",
-    subtitle:
-      "Has attending Andover affected your relationship with your family?",
-    // 2023!!
-  });
 
   // sota.pieChart({
   //   section: "school",
