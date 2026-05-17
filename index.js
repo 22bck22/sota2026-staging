@@ -1760,7 +1760,7 @@ window.onload = () => {
     // 2025!
   });
 
-  sota.barChart({
+  sota.stackedBarChart({
     section: "school",
     dataFile: "assets/data/school/collegeselectionxgrade",
     showLegend: true,
