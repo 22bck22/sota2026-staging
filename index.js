@@ -2568,14 +2568,6 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-  sota.bigNumber({
-    section: "sex",
-    number: "20.1%",
-    title: "Peer pressure & hook-up culture",
-    subtitle:
-      "of respondents that believe Andover has a hook-up culture have felt pressured by peers to participate in it.",
-    // 2024!!
-  });
   // sota.pieChart({
   //   section: "sex",
   //   dataFile: "assets/data/sex/74-participate_hookup",
@@ -2608,7 +2600,7 @@ window.onload = () => {
   sota.bigNumber({
     section: "sex",
     number: "9.0%",
-    title: "Partner Pressure",
+    title: "Sexual Pressure",
     subtitle:
       "of respondents have felt pressured by their partners to engage in sexual activity.",
     // 2026
@@ -2624,14 +2616,14 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.stackedBarChart({
+
+  sota.bigNumber({
     section: "sex",
-    dataFile: "assets/data/sex/77-rape_culture",
-    displayPercentage: true,
-    title: "Do you believe that there is rape culture at Andover?",
+    number: "12.2%",
+    title: "Rape Culture",
     subtitle:
-      "Rape culture: “a society or environment whose prevailing social attitudes have the effect of normalizing or trivializing sexual assault and abuse.” (Oxford Dictionaries)",
-    // 2024!!
+      "of respondents believe there is a rape culture at Andover - 'a society or enviornment whose prevailing social attitudes have the effect of normalizing or trivializing sexual assult or abuse' (Oxford English Dictionary)",
+    // 2026
   });
 
   sota.stackedBarChart({
