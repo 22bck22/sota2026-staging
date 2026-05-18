@@ -1121,38 +1121,6 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "campus",
-    number: "84.0%",
-    title: "Cell Phone Policy",
-    subtitle: "of respondents believe the cell-phone policy should be altered.",
-    // 2026
-  });
-
-  sota.bigNumber({
-    section: "campus",
-    number: "16.8%",
-    title: "Task Forces",
-    subtitle: "of respondents said task forces are an effective way to incorporate student perspectives into school decision-making.",
-    // 2026
-  });
-
-  sota.bigNumber({
-    section: "campus",
-    number: "84.2%",
-    title: "HOS Search Student Input",
-    subtitle: "of respondents think students should have greater input in the search for the next Head of School.",
-    // 2026
-  });
-
-  sota.bigNumber({
-    section: "campus",
-    number: "70.9%",
-    title: "School Spirit",
-    subtitle: "of respondents believe that Andover students have school spirit.",
-    // 2026
-  });
-
-  sota.bigNumber({
-    section: "campus",
     number: "30.1%",
     title: "Anti-Racism",
     subtitle: "of respondents said Andover's anti-racism work is entirely sufficient.",
@@ -1165,79 +1133,6 @@ window.onload = () => {
     title: "Ideological Diversity",
     subtitle: "of respondents think that Andover promotes ideological diversity in its selection of speakers for mandatory events.",
     // 2026
-  });
-
-  sota.barChart({
-    section: "campus",
-    dataFile: "assets/data/campus/128-ideologicaldiversity",
-    title: "Ideological Diversity",
-    subtitle:
-      "Do you think the school promotes ideological diversity in its selection of speakers?",
-    // 2026
-  });
-
-  sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/ideologyXaffiliation",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Ideological Diversity & Political Affiliation",
-    subtitle:
-      "Respondents' opinions on whether Andover's speakers are diverse in ideologies correlated with their political affiliation.",
-    // 2024!!
-  });
-
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/129-antiracismwork",
-    title: "Anti-racist work",
-    subtitle: "Do you think Andover’s anti-racist work is sufficient?",
-    // 2024!!
-  });
-
-  // sota.stackedBarChart({
-  //   section: "campus",
-  //   dataFile: "assets/data/campus/antiracismXyear",
-  //   sorted: false,
-  //   showLegend: true,
-  //   labelStyle: "onBar",
-  //   groupLabelStyle: "onBar",
-  //   displayPercentage: true,
-  //   title: "Anti-Racism & Class Year",
-  //   subtitle:
-  //     "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their class year.",
-  //   // 2023!!
-  // });
-
-  sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/antiracismXaffiliation",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Anti-Racism & Political Affiliation",
-    subtitle:
-      "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their political affiliation.",
-    // 2024!!
-  });
-
-  sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/antiracismXrace",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Anti-Racism & Race",
-    subtitle:
-      "Respondents' opinions on whether Andover's anti-racism work is sufficient correlated with their race. Edtior's Note: Not all races were included due to the small number of responses in those categories.",
-    // 2023!!
   });
 
   // sota.pieChart({
@@ -1256,15 +1151,6 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-
-  sota.columnChart({
-    section: "campus",
-    dataFile: "assets/data/campus/125-dayson",
-    showPercentage: true,
-    title: "Days \"On\"",
-    subtitle: "Which of the following days do you think Andover should have a “day on” for similar to MLK day)? Editor's note: Respondents were given the option to select more than one answer if applicable."
-    // 2025!!
-  })
 
   sota.pieChart({
     section: "campus",
