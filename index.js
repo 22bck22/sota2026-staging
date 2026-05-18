@@ -1209,7 +1209,6 @@ window.onload = () => {
   });
 
   sota.stackedBarChart({
-    selector: "#hos-search-wide",
     section: "campus",
     dataFile: "assets/data/campus/hos-searchXyear",
     sorted: false,
@@ -1220,7 +1219,6 @@ window.onload = () => {
     displayPercentage: true,
     title: "HOS Search Student Input & Class Year",
     subtitle: "Whether respondents think students should have greater input in the search for the next Head of School correlated with their class year.",
-    // 2026
   });
 
   sota.barChart({
@@ -1255,6 +1253,23 @@ window.onload = () => {
       subtitle: "Respondents' opinions on whether Andover students have school spirit correlated with their class year.",
     // 2025!!
   });
+
+    sota.stackedBarChart({
+      section: "campus",
+      dataFile: "assets/data/campus/spiritXcluster",
+      sorted: false,
+      showLegend: true,
+      labelStyle: "onBar",
+      groupLabelStyle: "onBar",
+      inputIsPercentage: false,
+      displayPercentage: true,
+      title: "School Spirit & Cluster",
+      subtitle: "Respondents' opinions on whether Andover students have school spirit correlated with their cluster.",
+    // 2025!!
+  });
+
+
+
   
     sota.stackedBarChart({
       section: "campus",
