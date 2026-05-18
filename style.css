@@ -385,3 +385,11 @@ section:before{
 #sota-section-school .sota-stroke-8, .sota-section-school .sota-stroke-8 {
   stroke: #FBF6F5;
 }
+
+
+/* HOS Search chart — wider to prevent overflow */
+#hos-search-wide {
+    width: calc(66% - 48px) !important;
+}
+
+
