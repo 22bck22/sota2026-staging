@@ -3333,17 +3333,6 @@ window.onload = () => {
     // 2023!!
   });
 
-
-  sota.columnChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/45-hours_social",
-    sorted: false,
-    title: "social media usage",
-    subtitle:
-      "Approximately how many hours a day do you spend on social media?",
-    // 2023!!
-  });
-
   sota.barChart({
     section: "wellness",
     dataFile: "assets/data/wellness/46-social_media",
