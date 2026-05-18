@@ -3453,8 +3453,6 @@ window.onload = () => {
     // 2022!!
   });
 
-
-
   sota.customBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/60-sykes_physical",
@@ -3464,6 +3462,18 @@ window.onload = () => {
     shapeFile: "assets/svgs/pregnancy",
     // 2023!!
   });
+
+  
+  sota.customBarChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/sykesmental",
+    subtitle:
+      "Do you think that the mental health resources provided by the Rebecca M. Sykes Wellness Center are sufficient?",
+    title: "mental health resources",
+    shapeFile: "assets/svgs/pregnancy",
+    // 2023!!
+  });
+
 
   // sota.stackedBarChart({
   //   section: "wellness",
