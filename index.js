@@ -3393,7 +3393,7 @@ window.onload = () => {
     section: "wellness",
     dataFile: "assets/data/wellness/54-insecure_body",
     sorted: false,
-    title: "body insecurity",
+    title: "Physical insecurity",
     subtitle:
       "Do you feel insecure about your body, physical health, and/or appearance?",
     // 2023!!
