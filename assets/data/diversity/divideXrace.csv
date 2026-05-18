@@ -1,8 +1,2 @@
-group,Asian,Black,Indigenous People of the Americas,Latine/Hispanic,Native Hawaiian or Pacific Islander,White
-"Ability/Disability",93,24,4,24,2,110
-"Ethnicity",205,51,2,41,5,160
-"Gender",156,45,3,33,3,187
-"Grade",192,50,5,45,4,193
-"Neurodivergence",72,20,1,21,2,88
-"Political Belief",177,62,4,45,4,217
-"Race",244,87,3,,53,5,261
+group,Asian,Black,Latine/Hispanic,White
+Socioeconomic Divide,135,48,42,110
