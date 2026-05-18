@@ -2938,25 +2938,12 @@ window.onload = () => {
     groupLabelStyle: "onBar",
     displayPercentage: true,
     inputIsPercentage: true,
-    title: "Normalization of Drug Culture & Substance Use",
+    title: "Normalization of Alcohol Use",
     subtitle:
-      "Whether respondents believe drug culture has been normalized at Andover correlated with substance use.",
+      "Is the recreational use od drugs or alcohol normalized at Andover?",
     // 2024!!
   });
 
-    sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/drugnormXpressure",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Normalization of Drug Culture & Pressure to Take Drugs",
-    subtitle:
-      "Whether respondents believe drug culture has been normalized at Andover correlated with whether or not they have felt pressured to take drugs.",
-    // 2025!!
-  });
 
   sota.pieChart({
     section: "drugs",
