@@ -2536,15 +2536,6 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/71-sex_frequency",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "How frequently, on average, do you engage in sexual activity?",
-    // 2024!!
-  });
-
   // sota.pieChart({
   //   section: "sex",
   //   dataFile: "assets/data/sex/73-hookup_culture",
