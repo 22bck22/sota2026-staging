@@ -1772,6 +1772,21 @@ window.onload = () => {
     // 2024!!
   });
 
+  
+ sota.stackedBarChart({
+    section: "discipline",
+    dataFile: "assets/data/discipline/privilegeXsec",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Privilege in the Disciplinary System by New Family Income",
+    subtitle:
+      "Whether respondents believe the disciplinary process favors those from privileged backgrounds correlated with their income.",
+    // 2025!
+  });
+
   sota.stackedBarChart({
     section: "discipline",
     dataFile: "assets/data/discipline/privilegeXdiscipline",
@@ -1804,15 +1819,6 @@ window.onload = () => {
   //     // 2022!!
   // });
 
-  sota.pieChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/152-cheated",
-    sorted: false,
-    title: "Cheating",
-    subtitle:
-      "Have you ever cheated on any tests, quizzes, or in-class assessments while at Andover?",
-    // 2024!!
-  });
 
   // sota.bigNumber({
   //   section: "discipline",
@@ -1841,61 +1847,35 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-  sota.stackedColumnChart({
+  sota.barChart({
     section: "discipline",
-    dataFile: "assets/data/discipline/integrityXclassyear",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
+    dataFile: "assets/data/discipline/aiusagediscipline",
+    totalResp: 704,
     displayPercentage: true,
-    title: "Academic Integrity & Class Year",
-    subtitle:
-      "Whether respondents have committed academic integrity violations correlated with their class year.",
+    title: "AI Usage",
+    subtitle: "How often do you use AI for academic assignments without explicit permission from the instructor?",
     // 2025!!
   });
 
   sota.barChart({
     section: "discipline",
-    dataFile: "assets/data/discipline/147-understand_processes",
-    totalResp: 736,
+    dataFile: "assets/data/discipline/majorviolations",
+    totalResp: 709,
     displayPercentage: true,
-    title: "Student Understanding",
-    subtitle: "Do you understand the new disciplinary system, Pathways?",
+    title: "Major Violations",
+    subtitle: "Have you ever committed major disciplinary violations without being caught? Violations include, but are not limited to, major academic dishonesty, selling or providing drugs or alcohol/nicotine, bullying, hazing, major destruction of property, and sexual misconduct?",
     // 2025!!
   });
 
-  
 
-  sota.stackedBarChart({
+  sota.barChart({
     section: "discipline",
-    dataFile: "assets/data/discipline/understandXclassyear",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
+    dataFile: "assets/data/discipline/disciplinestuff",
+    totalResp: 709,
     displayPercentage: true,
-    title: "Understanding the Process & Residential Status",
-    subtitle:
-      "Whether respondents understand the new disciplinary process correlated with their class year.",
-    // 2025
+    title: "Which of the following disciplinary consequences have you recieved?",
+    // 2025!!
   });
-
-
-  sota.stackedBarChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/understandXresidential",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Understanding the Process & Residential Status",
-    subtitle:
-      "Whether respondents understand the new disciplinary process correlated with their residential status.",
-    // 2023!! TODO
-  });
-
   // sota.stackedBarChart({
   //   section: "discipline",
   //   dataFile: "assets/data/discipline/understandXclassyear",
@@ -1931,44 +1911,7 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.barChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/162-artificialintelligence",
-    showPercentage: false,
-    title: "Artificial Intelligence",
-    margin: margin,
-    subtitle:
-      "How often do you use AI for an academic assignment without explicit permission from the instructor?",
-    // 2025!!
-  });
-
-  sota.stackedBarChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/AIXclassyear",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Use of Artificial Intelligence & Class Year",
-    subtitle:
-      "How often respondents have ever used Artificial Intelligence without permission correlated with their class year.",
-    // 2025!!
-  });
-
-  sota.stackedBarChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/AIXGPA",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Use of Artificial Intelligence & GPA",
-    subtitle:
-      "How often respondents use Artificial Intelligence correlated with their Winter 2024-2025 GPA.",
-    // 2025!
-  });
+  
 
   // sota.stackedBarChart({
   //   section: "discipline",
