@@ -3644,14 +3644,12 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.pieChart({
+  sota.bigNumber({
     section: "wellness",
-    dataFile: "assets/data/wellness/treatment",
-    sorted: false,
-    subtitle:
-      "Are you currently receiving treatment for any mental health diagnosis (ie. therapy, medication, etc.)?",
-    title: "Treatment",
-    // 2023!!
+    number: "19.2",
+    title: "Mental Health Treatment",
+    subtitle: "of respondents are recieving treatment for mental health.",
+    // 2026
   });
 
   // sota.stackedBarChart({
