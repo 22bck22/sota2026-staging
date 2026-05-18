@@ -1199,6 +1199,7 @@ window.onload = () => {
   });
 
   sota.stackedBarChart({
+    selector: "#hos-search-wide"
     section: "campus",
     dataFile: "assets/data/campus/hos-searchXyear",
     sorted: false,
