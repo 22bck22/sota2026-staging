@@ -3324,6 +3324,14 @@ window.onload = () => {
     // 2026
   });
 
+  sota.bigNumber({
+    section: "wellness",
+    number: "2.33",
+    title: "Social Media Hours",
+    subtitle: "Respondents spent an average of 2.33 hours per day on social media.",
+    // 2026
+  });
+
   sota.lineGraph({
     section: "wellness",
     dataFile: "assets/data/wellness/sleepgraph",
