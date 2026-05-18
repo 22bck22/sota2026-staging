@@ -2597,17 +2597,6 @@ window.onload = () => {
     // 2026
   });
 
-  sota.pieChart({
-    section: "sex",
-    dataFile: "assets/data/sex/76-partner_pressure",
-    displayPercentage: true,
-    title: "partner pressure",
-    subtitle:
-      "Have you ever felt pressured by a partner to engage in sexual activity?",
-    // 2024!!
-  });
-
-
   sota.bigNumber({
     section: "sex",
     number: "12.2%",
@@ -2615,20 +2604,6 @@ window.onload = () => {
     subtitle:
       "of respondents believe there is a rape culture at Andover - 'a society or enviornment whose prevailing social attitudes have the effect of normalizing or trivializing sexual assult or abuse' (Oxford English Dictionary)",
     // 2026
-  });
-
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/rapecultureXgender",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Rape Culture & Gender Identity",
-    subtitle:
-      "Whether respondents believe there is a rape culture at Andover by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2024!!
   });
 
   sota.pieChart({
@@ -2678,17 +2653,6 @@ window.onload = () => {
     // 2025
   });
 
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/sex_edXsexuality",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Sexual Education & Sexuality",
-    subtitle: "Whether respondents think their sexual education at Andover is/has been adequate correlated with their sexuality.",
-    // 2025
-  });
-
   
 
   // sota.stackedBarChart({
@@ -2702,60 +2666,6 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/84-telling_friends_masturbate",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title:
-      "Would you feel comfortable telling your friends that you masturbate?",
-    subtitle:
-      "Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2024!!
-  });
-
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/masturbateXgender",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Talking about Masturbation & Gender Identity",
-    subtitle:
-      "Whether respondents feel comfortable telling their friends they masturbate by their gender identity. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2024!!
-  });
-
-  sota.barChart({
-    section: "sex",
-    dataFile: "assets/data/sex/85-porn",
-    displayPercentage: true,
-    title: "Porn",
-    subtitle:
-      "If you watch pornography/read pornographic materials, how frequently, on average, do you do so?",
-    // 2025
-  });
-
-  sota.bigNumber({
-    section: "sex",
-    number: "17.1%",
-    title: "sexting",
-    subtitle:
-      "of respondents have sent a sexually explicit photo of themselves.",
-    // 2025!
-  });
-
-  sota.pieChart({
-    section: "sex",
-    dataFile: "assets/data/sex/sexted",
-    displayPercentage: true,
-    title: "Have you ever received a sexually explicit photo?",
-    // 2025
-  });
 
   sota.bigNumber({
     section: "sex",
@@ -2765,51 +2675,12 @@ window.onload = () => {
     // 2026
   });
 
-  sota.columnChart({
-    section: "sex",
-    dataFile: "assets/data/sex/89-harassed",
-    displayPercentage: true,
-    totalResp: 695,
-    title: "Have you ever been sexually harassed?",
-    // 2024!!
-  });
-
-  sota.pieChart({
-    section: "sex",
-    dataFile: "assets/data/sex/90-sex_racial",
-    showLegend: true,
-    sorted: false,
-    title: "Sexual racism",
-    subtitle:
-      "Have you ever been sexualized (including being fetishized and hypersexualized) or desexualized (including being defeminized and emasculated) due to your racial-ethnic identity?",
-    // 2024!!
-  });
-
   sota.bigNumber({
     section: "sex",
     number: "9.5%",
     title: "Sexual Assault",
     subtitle: "of respondents have been sexually assaulted.",
     // 2026
-  });
-
-  sota.columnChart({
-    section: "sex",
-    dataFile: "assets/data/sex/91-assaulted",
-    displayPercentage: true,
-    totalResp: 694,
-    title: "Have you ever been sexually assaulted?",
-    // 2026
-  });
-
-  sota.barChart({
-    section: "sex",
-    dataFile: "assets/data/sex/92-sti",
-    displayPercentage: true,
-    title: "Sexual health",
-    subtitle:
-      "Have you ever contracted a Sexually Transmitted Infection (STI) or Sexually Transmitted Disease (STD)?",
-    // 2024!!
   });
 
   sota.pieChart({
@@ -2845,19 +2716,7 @@ window.onload = () => {
   //   // 2024
   // });
 
-  sota.stackedBarChart({
-    section: "sex",
-    dataFile: "assets/data/sex/influenceXconsumption",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Sex Under the Influence & Substance Consumption",
-    subtitle:
-      "Whether respondents have had sex under the influence correlated with substance consumption.",
-    // 2024!!
-  });
+
 
   // sota.groupedBarChart({
   //   section: "sex",
