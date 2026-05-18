@@ -2679,36 +2679,52 @@ window.onload = () => {
     // 2025
   });
 
-  sota.barChart({
+  sota.stackedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/sexualharbygender",
+    sorted: false,
     showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
     title: "Sexual Harrassment by Gender",
-    // 2024!!
+  
   });
 
-  sota.barChart({
+  sota.stackedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/sexualassbygender",
+    sorted: false,
     showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
     title: "Sexual Assault by Gender",
-    // 2024!!
   });
 
-  sota.barChart({
+  
+  sota.stackedBarChart({
     section: "sex",
     dataFile: "assets/data/sex/sexualharbyrace",
+    sorted: false,
     showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
     title: "Sexual Harrassment by Race",
-    // 2024!!
+  
   });
-
-   sota.barChart({
-      section: "sex",
-      dataFile: "assets/data/sex/sexualassbyrace",
-      showLegend: true,
-      title: "Sexual Assault by Race",
-    // 2024!!
+  
+  sota.stackedBarChart({
+    section: "sex",
+    dataFile: "assets/data/sex/sexualassbyrace",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Sexual Assault by Race",
+  
   });
   
   // sota.stackedBarChart({
