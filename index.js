@@ -3324,14 +3324,15 @@ window.onload = () => {
     // 2026
   });
 
-  sota.columnChart({
+  sota.lineGraph({
     section: "wellness",
-    dataFile: "assets/data/wellness/44-sleep",
-    displayPercentage: true,
-    subtitle: "On average, how many hours of sleep do you get per night?",
-    title: "sleep",
+    dataFile: "assets/data/wellness/sleepgraph",
+    maxVal: 40,
+    title: "Sleep",
+    subtitle: "How many hours of sleep do you get per night?",
     // 2023!!
   });
+
 
   sota.columnChart({
     section: "wellness",
