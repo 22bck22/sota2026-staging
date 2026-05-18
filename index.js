@@ -2017,7 +2017,7 @@ window.onload = () => {
   sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/138-faculty_diversity",
-    totalResp: 714,
+    totalResp: 740,
     displayPercentage: true,
     title: "Faculty Diversity",
     subtitle: "Do you think the faculty is lacking in diversity in...?",
@@ -2034,26 +2034,6 @@ window.onload = () => {
   //   subtitle: "Do you think the faculty is lacking in diversity of gender?",
   //   // 2022!!
   // });
-
-    sota.barChart({
-    section: "diversity",
-    dataFile: "assets/data/diversity/faculty_diversityXrace",
-    totalResp: 207,
-    displayPercentage: true,
-    title: "Faculty Diversity by Race",
-    subtitle: "Respondents who believe that the faculty of Andover is lacking diversity in race.",
-    // 2024!!
-  });
-
-    sota.barChart({
-    section: "diversity",
-    dataFile: "assets/data/diversity/faculty_diversityXrace",
-    totalResp: 207,
-    displayPercentage: true,
-    title: "Faculty Diversity by Race",
-    subtitle: "Respondents who believe that the faculty of Andover is lacking diversity in race.",
-    // 2024!!
-  });
 
   // sota.stackedBarChart({
   //   section: "diversity",
@@ -2091,18 +2071,18 @@ window.onload = () => {
     // 2024!!
   });
 
-  // sota.stackedBarChart({
-  //   section: "diversity",
-  //   dataFile: "assets/data/diversity/divideXrace",
-  //   sorted: false,
-  //   showLegend: true,
-  //   labelStyle: "onBar",
-  //   groupLabelStyle: "onBar",
-  //   displayPercentage: true,
-  //   title: "Social Divide & Race",
-  //   subtitle: "Respondents' opinions on whether there is a social divide at Andover correlated with their race.",
-  //       // 2023!!
-  // });
+  sota.stackedBarChart({
+    section: "diversity",
+    dataFile: "assets/data/diversity/divideXrace",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Social Divide & Race",
+    subtitle: "Respondents' opinions on whether there is a social divide at Andover correlated with their race.",
+       // 2023!!
+ });
 
   // sota.stackedBarChart({
   //   section: "diversity",
@@ -2126,6 +2106,31 @@ window.onload = () => {
     // 2024!!
   });
 
+  sota.stackedBarChart({
+    section: "diversity",
+    dataFile: "assets/data/diversity/discriminationxrace",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Discrimination by Race",
+    subtitle: "Percent of respondents who experienced discrimination correlated with their race.",
+       // 2023!!
+ });
+
+  sota.stackedBarChart({
+    section: "diversity",
+    dataFile: "assets/data/diversity/discriminationxgender",
+    sorted: false,
+    showLegend: true,
+    labelStyle: "onBar",
+    groupLabelStyle: "onBar",
+    displayPercentage: true,
+    title: "Discrimination by Gender",
+    subtitle: "Percent of respondents who experienced discrimination correlated with their gender.",
+       // 2023!!
+ });
   // sota.barChart({
   //   section: "diversity",
   //   dataFile: "assets/data/diversity/139-faculty_support",
@@ -2136,17 +2141,6 @@ window.onload = () => {
   //     "Which of the faculty/staff members in your life do you feel are supportive of a diverse range of students?",
   //   // 2023!!
   // });
-
-  sota.barChart({
-    section: "diversity",
-    dataFile: "assets/data/diversity/144-identity_discussion",
-    totalResp: 718,
-    displayPercentage: true,
-    title: "Talking the Talk",
-    subtitle:
-      "Do you think that there are facets of identity that are not discussed enough at Andover?",
-    // 2024!!
-  });
 
   sota.barChart({
     section: "diversity",
@@ -2211,45 +2205,6 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.barChart({
-    section: "diversity",
-    dataFile: "assets/data/diversity/141-leadership",
-    totalResp: 720,
-    displayPercentage: true,
-    title: "Leadership Positions",
-    subtitle:
-      "Do you think your capability to attain leadership positions at Andover is affected by your...?",
-    // 2024!!
-  });
-
-  sota.stackedBarChart({
-    section: "diversity",
-    dataFile: "assets/data/diversity/leadershipXgender",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Leadership & Gender",
-    subtitle:
-      "Respondents' opinions on whether gender limits their capacity to obtain leadership positions correlated with their gender. Editor’s note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary.” and “Other” have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2024!!
-  });
-
-  sota.stackedBarChart({
-    section: "diversity",
-    dataFile: "assets/data/diversity/leadershipXrace",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Leadership & Race",
-    subtitle:
-      "Respondents' opinions on whether race limits their capacity to obtain leadership positions correlated with their race. Editor’s Note: Correlated statistics from respondents whose races are “Indigenous People of the Americas” and “Native Hawaiian or Pacific Islander” have been removed in an effort to protect the complete anonymity of these respondents. ",
-    // 2024!!
-  });
-
   sota.pieChart({
     section: "diversity",
     dataFile: "assets/data/diversity/146-day_student",
@@ -2259,19 +2214,6 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.stackedBarChart({
-    section: "diversity",
-    dataFile: "assets/data/diversity/residentialXday",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Residential Status & Day Student Integration",
-    subtitle:
-      "Respondents' opinions on whether day students integrate into campus correlated with their residential status.",
-    // 2024!!
-  });
 
   // sota.stackedBarChart({
   //   section: "diversity",
