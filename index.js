@@ -3432,29 +3432,6 @@ window.onload = () => {
     // 2026
   });
 
-  sota.pieChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/58-see_counselor",
-    sorted: false,
-    subtitle:
-      "Have you ever been to the Rebecca M. Sykes Wellness Center to see a counselor?",
-    title: "Sykes counseling",
-    // 2025
-  });
-
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/counselorXsufficient",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "Sufficient Support & Counseling",
-    subtitle:
-      "Correlation between respondents who believe Sykes mental health support is sufficient and whether they have seen a counselor.",
-    // 2023!!
-  });
-
   // sota.bigNumber({
   //   section: "wellness",
   //   title: "Adequate Recources",
