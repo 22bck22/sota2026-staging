@@ -1150,7 +1150,17 @@ window.onload = () => {
   //   title: 'Do you think that Andover should have a "day on" for Earth Day?',
   //   // 2023!!
   // });
+  
+  
+  sota.bigNumber({
+    section: "campus",
+    number: "46.7%",
+    title: "Varsity Athletes",
+    subtitle: "of respondents are varsity athletes.",
+    // 2026
+  });
 
+  
   sota.stackedBarChart({
     section: "campus",
     dataFile: "assets/data/campus/glorifyathleticsXvarsity",
@@ -1260,17 +1270,7 @@ window.onload = () => {
     // 2025!!
   });
 
-  // sota.pieChart({
-  //   section: "campus",
-  //   dataFile: "assets/data/campus/134-environment_impact",
-  //   sorted: false,
-  //   title: "climate education",
-  //   // pieRad: 100,
-  //   margin: margin,
-  //   subtitle:
-  //     "Do you feel that environmental issues (global warming, water, and air pollution, etc.) directly impact your life?",
-  //   // 2024!!
-  // });
+
 
   // sota.pieChart({
   //   section: "campus",
