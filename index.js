@@ -3353,7 +3353,15 @@ window.onload = () => {
     // 2023!!
   });
 
-
+  sota.barChart({
+    section: "wellness",
+    dataFile: "assets/data/wellness/loneliness",
+    displayPercentage: true,
+    totalResp: 789,
+    title: "How often do you feel lonely or isolated?",
+    // 2023!!
+  });
+  
   sota.stackedBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/socialmediaXgrade",
