@@ -2631,29 +2631,15 @@ window.onload = () => {
     // 2024!!
   });
 
-  // sota.stackedBarChart({
-  //   section: "sex",
-  //   dataFile: "assets/data/sex/inter-class_relationship",
-  //   showLegend: true,
-  //   labelStyle: "onBar",
-  //   groupLabelStyle: "onBar",
-  //   title: "inter-class relationships",
-  //   subtitle:
-  //     "If you are currently in a committed relationship, what class is your partner in?",
-  //   // 2023!!
-  // });
 
-  sota.lineGraph({
+  sota.pieChart({
     section: "sex",
-    dataFile: "assets/data/sex/sex_ed",
-    title: "Sexual Education",
-    subtitle:
-      "Percentage of students who thought that their sexual education at Andover has been/is adequate.",
-    inputIsPercentage: true,
-    // 2025
+    dataFile: "assets/data/sex/sexeducationdal",
+    displayPercentage: true,
+    title: "consent",
+    subtitle: "Do you think Andover provides adequate sexual education?",
+    // 2024!!
   });
-
-  
 
   // sota.stackedBarChart({
   //   section: "sex",
