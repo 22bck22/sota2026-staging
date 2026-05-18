@@ -1,22 +1,3 @@
-group,Boarding student,Day student
-Cluster Community Conference|Centralized Community Conference|Growth and Accountability Plan (GAP),1,0
-Cluster Community Conference|Centralized Community Conference|Growth and Accountability Plan (GAP)|Second Growth and Accountability Plan (GAP2),1,0
-Cluster Community Conference|Growth and Accountability Plan (GAP)|Second Growth and Accountability Plan (GAP2),1,0
-Dean's Letter/Response,74,12
-Dean's Letter/Response|Centralized Community Conference|Growth and Accountability Plan (GAP),1,0
-Dean's Letter/Response|Cluster Community Conference,1,0
-Dean's Letter/Response|Cluster Community Conference|Centralized Community Conference|Growth and Accountability Plan (GAP),1,0
-Dean's Letter/Response|Cluster Community Conference|Centralized Community Conference|Growth and Accountability Plan (GAP)|Second Growth and Accountability Plan (GAP2),1,0
-Dean's Letter/Response|Cluster Community Conference|Centralized Community Conference|Growth and Accountability Plan (GAP)|Second Growth and Accountability Plan (GAP2)|Suspension,2,0
-Dean's Letter/Response|Cluster Community Conference|Growth and Accountability Plan (GAP),2,0
-Dean's Letter/Response|Cluster Community Conference|Growth and Accountability Plan (GAP)|Second Growth and Accountability Plan (GAP2),2,0
-Dean's Letter/Response|Growth and Accountability Plan (GAP),21,3
-Dean's Letter/Response|Growth and Accountability Plan (GAP)|Second Growth and Accountability Plan (GAP2),4,0
-Dean's Letter/Response|Growth and Accountability Plan (GAP)|Second Growth and Accountability Plan (GAP2)|Suspension,1,0
-|Centralized Community Conference|Growth and Accountability Plan (GAP),1,0
-|Centralized Community Conference|Growth and Accountability Plan (GAP)|Second Growth and Accountability Plan (GAP2)|Suspension,1,0
-|Centralized Community Conference|Growth and Accountability Plan (GAP)|Suspension,1,0
-|Growth and Accountability Plan (GAP),44,12
-|Growth and Accountability Plan (GAP)|Second Growth and Accountability Plan (GAP2),3,0
-|Growth and Accountability Plan (GAP)|Suspension,0,1
-|Second Growth and Accountability Plan (GAP2),1,0
+group,Received Consequence,None
+Day student,28,153
+Boarding student,164,343
