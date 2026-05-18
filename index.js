@@ -3030,15 +3030,21 @@ window.onload = () => {
       "of respondents have sold someone drugs, alcohol, or their prescription medication on/or off campus.",
   }); // 2025
 
-  // sota.pieChart({
-  //   section: "drugs",
-  //   dataFile: "assets/data/drugs/102-dorm_drug",
-  //   displayPercentage: true,
-  //   title: "dorm culture",
-  //   subtitle:
-  //     "Do you think your dorm significantly influences how you think about/use drugs and alcohol?",
-  //     // 2022!!
-  // });
+  sota.bigNumber({
+    section: "drugs",
+    number: "17.6%",
+    title: "Friendship and Substances",
+    subtitle:
+      "of respondents think that the recreational use of drugs or alcohol significantly influences their freindships at Andover.",
+  }); // 2025
+
+   sota.bigNumber({
+    section: "drugs",
+    number: "16.8%",
+    title: "Leave Campus",
+    subtitle:
+      "of respondents have intentionally left campus to recreationally consume drugs or alcohol (e.g. off campus homes, downtown Andover, Boston, etc.)",
+  }); // 2025
 
   sota.pieChart({
     section: "drugs",
