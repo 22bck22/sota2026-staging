@@ -3088,7 +3088,7 @@ window.onload = () => {
     dataFile: "assets/data/drugs/107-druglocation",
     displayPercentage: true,
     totalResp: 820,
-    title: "location",
+    title: "Campus Setting",
     subtitle:
       "In which of the following settings at Andover have you been under the influence of recreational drugs or alcohol?",
     // 2024!!
