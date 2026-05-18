@@ -3051,20 +3051,6 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/studentleaderXstudydrug",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    inputIsPercentage: true,
-    displayPercentage: true,
-    title: "Student Leadership & Study Drug Use",
-    subtitle:
-      "How respondents who are student leaders are correlated with Study Drug use.",
-    // 2024!!
-  });
 
   sota.barChart({
     section: "drugs",
