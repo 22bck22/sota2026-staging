@@ -1165,15 +1165,6 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.bigNumber({
-    section: "campus",
-    number: "46.3%",
-    title: "Head of School Approval",
-    subtitle:
-      "of respondents approve of the work the Head of School is doing for students, a decrease from 2025's 55.6%.",
-    // 2026
-  });
-
   sota.pieChart({
     section: "campus",
     dataFile: "assets/data/campus/hos-approval",
@@ -1195,41 +1186,6 @@ window.onload = () => {
     title: "Head of School Approval & Class Year",
     subtitle:
       "Respondents' opinions on whether they support the work the Head of School is doing for the students correlated with their class year.",
-    // 2023!!
-  });
-  
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/hos-policy",
-    sorted: false,
-    title: "Head of School Policy",
-    subtitle:
-      "Do you support the Head of School’s new statement policy — “For Andover to issue a statement, the societal event must directly impact our education mission, and our voice should add value to public discourse” (From Raynard Kington’s email to the Andover community on February 27, 2024)?",
-    // 2024!!
-  });
-
-  sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/hospolicyXhosapproval",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Head of School Approval & Class Year",
-    subtitle:
-      "Respondents' opinions on whether they support the statement made by the Head of School correlated with whether they support the work the Head of School is doing for students.",
-    // 2023!!
-  });
-
-
-
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/hos-connection",
-    sorted: false,
-    title: "HOS Student Connection",
-    subtitle: "Do you think the Head of School connects with the student body?",
     // 2023!!
   });
 
@@ -1276,60 +1232,30 @@ window.onload = () => {
   });
 
     sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/spiritXalchohol",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    inputIsPercentage: false,
-    displayPercentage: true,
-    title: "School Spirit & Alcohol",
-    subtitle:
-      "Respondents' opinions on whether Andover students have school spirit correlated with their drinking habits.",
+      section: "campus",
+      dataFile: "assets/data/campus/spiritXyear",
+      sorted: false,
+      showLegend: true,
+      labelStyle: "onBar",
+      groupLabelStyle: "onBar",
+      inputIsPercentage: false,
+      displayPercentage: true,
+      title: "School Spirit & Class Year",
+      subtitle: "Respondents' opinions on whether Andover students have school spirit correlated with their class year.",
     // 2025!!
   });
-
+  
     sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/spiritXyear",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    inputIsPercentage: false,
-    displayPercentage: true,
-    title: "School Spirit & Class Year",
-    subtitle:
-      "Respondents' opinions on whether Andover students have school spirit correlated with their class year.",
-    // 2025!!
-  });
-    sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/spiritXcluster",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    inputIsPercentage: false,
-    displayPercentage: true,
-    title: "School Spirit & Cluster",
-    subtitle:
-      "Respondents' opinions on whether Andover students have school spirit correlated with their cluster.",
-    // 2025!!
-  });
-    sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/phonesXsocialmedia",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    inputIsPercentage: false,
-    displayPercentage: true,
-    title: "Opinions On Cell Phone Policy & Social Media Usage",
-    subtitle:
-      "Respondents' opinions on whether or not the school should enforce a cell phone policy correlated with their daily social media usage in hours.",
+      section: "campus",
+      dataFile: "assets/data/campus/phonesXsocialmedia",
+      sorted: false,
+      showLegend: true,
+      labelStyle: "onBar",
+      groupLabelStyle: "onBar",
+      inputIsPercentage: false,
+      displayPercentage: true,
+      title: "Opinions On Cell Phone Policy & Social Media Usage",
+      subtitle: "Respondents' opinions on whether or not the school should enforce a cell phone policy correlated with their daily social media usage in hours.",
     // 2025!!
   });
 
@@ -1345,16 +1271,6 @@ window.onload = () => {
   //   // 2024!!
   // });
 
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/135-combat_climate_change",
-    sorted: false,
-    title: "Climate change",
-    subtitle:
-      "Do you feel like Andover is doing enough to combat climate change?",
-    // 2024!!
-  });
-
   // sota.pieChart({
   //   section: "campus",
   //   dataFile: "assets/data/campus/136-divestfossilfuel",
@@ -1365,20 +1281,6 @@ window.onload = () => {
   //     'Divestment is the act of "taking money away from where you have invested it" (Oxford Dictionaries).',
   //   // 2024!!
   // });
-
-  sota.stackedBarChart({
-    section: "campus",
-    dataFile: "assets/data/campus/divestXaffiliation",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Divestment & Political Affiliation",
-    subtitle:
-      "Respondents' opinions on Andover divesting from fossil fuels correlated with their political affiliation.",
-    // 2023!!
-  });
 
   //   sota.stackedColumnChart({
   //     section: "campus",
