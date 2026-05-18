@@ -3358,18 +3358,7 @@ window.onload = () => {
     title: "How often do you feel lonely or isolated?",
     // 2023!!
   });
-  
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/socialmediaXgrade",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Social Media & Grade",
-    subtitle:
-      "Platforms that respondents use by their class year.",
-    // 2023!!
-  });
+
 
   sota.pieChart({
     section: "wellness",
@@ -3380,27 +3369,6 @@ window.onload = () => {
     subtitle: "How does social media impact your life?",
     // 2023!!
   });
-
-
-  sota.pieChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/47-caffeine",
-    title: "Caffeine Usage",
-    // shapeFile: "assets/svgs/coffee",
-    displayPercentage: true,
-    subtitle: "If you consume caffeine (coffee, energy drinks, soda, tea, etc.) during the school year, on average, how frequently do you do so?",
-    //2025
-  })
-
-  sota.stackedColumnChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/caffeineXyear",
-    title: "Caffeine Usage by Class Year",
-    displayPercentage: true,
-    subtitle: "Frequency of caffeine consumption by class year.",
-    // 2025
-  })
-
   
   sota.bigNumber({
     section: "wellness",
@@ -3596,31 +3564,6 @@ window.onload = () => {
     margin: margin,
     // 2023!!
   });
-
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/lonelyXsocial-media",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "Loneliness & Social Media",
-    subtitle:
-      "Correspondents who feel lonely or isolated correlated with the hours they spend on social media.",
-    // 2023!!
-  });
-
-  sota.pieChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/69-take_care",
-    sorted: false,
-    title: "self-care",
-    subtitle:
-      "Do you have enough time in your day-to-day life as an Andover student to adequately take care of yourself?",
-    // 2023!!
-  });
-
-
 
   // sota.bigNumber({
   //   section: "wellness",
