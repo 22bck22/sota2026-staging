@@ -3409,45 +3409,13 @@ window.onload = () => {
     subtitle: "Daily social media usage correlated with GPA.",
     //2025
   })
-
-  sota.bigNumber({
-    section: "wellness",
-    title: "Neurodivergence",
-    number: "20.6%",
-    subtitle: "of respondents consider themselves neurodivergent.",
-    // 2025
-  });
-
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/neurodivergence",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "neurodiversity",
-    subtitle:
-      "Do you consider yourself neurodivergent? — “Having or relating to a type of brain that is often considered as different from what is usual” (Cambridge English Dictionary)",
-    // 2023!!
-  });
-
+  
   sota.bigNumber({
     section: "wellness",
     title: "bullying & hazing",
     number: "11.2%",
     subtitle: "of respondents have been bullied or hazed while at Andover.",
     // 2025!
-  });
-
-  sota.pieChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/52-hazed",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    sorted: false,
-    title: "bullying & hazing",
-    subtitle: "Have you ever been bullied or hazed while at Andover?",
-    // 2023!!
   });
 
   sota.customColumnChart({
@@ -3461,19 +3429,6 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/insecurityXgpa",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "GPA & Intellectual Insecurity",
-    subtitle:
-      "Correspondents who feel insecure about their academic ability and/or intelligence correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
-    // 2023!!
-  });
-
   sota.pieChart({
     section: "wellness",
     dataFile: "assets/data/wellness/54-insecure_body",
@@ -3481,45 +3436,6 @@ window.onload = () => {
     title: "body insecurity",
     subtitle:
       "Do you feel insecure about your body, physical health, and/or appearance?",
-    // 2023!!
-  });
-
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/insecurityXgender",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "Body Insecurity & Gender",
-    subtitle:
-      "Correspondents who feel insecure about their body, physical health, and/or appearance correlated with their gender. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
-  });
-
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/insecureXvarsity",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "Body Insecurity & Gender",
-    subtitle:
-      "Correspondents who feel insecure about their body, physical health, and/or appearance correlated with whether they are varisty athletes. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
-  });
-
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/insecurityXsocial-media",
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "Body Insecurity & Social Media",
-    subtitle:
-      "Correspondents who feel insecure about their body, physical health, and/or appearance correlated with the hours they spend on social media.",
     // 2023!!
   });
 
@@ -3612,46 +3528,6 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.bigNumber({
-    section: "wellness",
-    title: "ADD/ADHD",
-    number: "10.8%",
-    subtitle:
-      "of respondents have been diagnosed with ADD/ADHD.",
-    // 2025
-  });
-
-  sota.stackedColumnChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/6123-diagnosed",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "mental health",
-    subtitle: "Have you ever been diagnosed with...?",
-    // 2023!!
-  });
-
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/anxietyXgender",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Anxiety & Gender",
-    subtitle:
-      "Respondents who have anxiety correlated with their gender identity. Editor’s Note: Correlated statistics from respondents who identify as “Agender,” “Genderfluid,” “Genderqueer,” “Nonbinary,” and “Other” gender identities have been removed in an effort to protect the complete anonymity of these respondents.",
-    // 2023!!
-  });
-
-  sota.bigNumber({
-    section: "wellness",
-    number: "19.2",
-    title: "Mental Health Treatment",
-    subtitle: "of respondents are recieving treatment for mental health.",
-    // 2026
-  });
-
   // sota.stackedBarChart({
   //   section: "wellness",
   //   dataFile: "assets/data/wellness/mentalhealthXsykes",
@@ -3676,18 +3552,6 @@ window.onload = () => {
   //   // 2025!!
   // });
 
-    sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/sykeswillingnessXyear",
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    title: "Willingness to Use Sykes Resources & Class Year",
-    subtitle:
-      "Whether respondents are willing to use the mental health resources at Sykes Wellness Center by Class Year.",
-    // 2025!!
-  });
-
   sota.stackedBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/65-happiness",
@@ -3698,16 +3562,6 @@ window.onload = () => {
     // 2025
   });
 
-  sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/66-others_happiness",
-    showLegend: true,
-    labelStyle: "onBar",
-    title: "Perceived Happiness",
-    subtitle:
-      "Generally speaking, do you think that Andover students are happy?",
-    // 2025
-  });
 
   //   sota.stackedBarChart({
   //   section: "wellness",
