@@ -1708,20 +1708,20 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "discipline",
-    number: "15.2%",
-    title: "Major Discipline Violation",
+    number: "8.7%",
+    title: "Pathways",
     subtitle:
-      "of respondents have committed a major disciplinary violation without being caught.",
+      "of students at Andover completely understand the Pathways disciplinary system.",
     margin: margin,
     // 2026
   });
 
   sota.bigNumber({
     section: "discipline",
-    number: "10.8%",
-    title: "AI Daily Usage",
+    number: "31.6",
+    title: "Cheating/Plagiarism",
     subtitle:
-      "of respondents said they use AI daily for academic assignments without explicit instructor permission.",
+      "of students at Andover have cheated or plagarized on an Andover assignment, test, quiz, or assessment.",
     // 2026
   });
 
@@ -1732,16 +1732,6 @@ window.onload = () => {
   //   title: "Have you ever sat before a ccc or a dc?",
   //   // 2022!!
   // });
-
-  sota.columnChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/149-consequences",
-    totalResp: 733,
-    margin: margin,
-    title:
-      "Which of the following disciplinary consequences have you recieved?",
-    // 2024!!
-  });
   
   sota.stackedBarChart({
     section: "discipline",
@@ -1751,9 +1741,9 @@ window.onload = () => {
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
-    title: "Discipline System & Residential Status",
+    title: "Boarding vs. Day Disciplinary Consequences",
     subtitle:
-      "Respondents' residential statuses correlated with any received disciplinary action.",
+      "Of those that said yes to receiving a disciplinary consequence.",
     // 2025
   });
 
@@ -1771,18 +1761,6 @@ window.onload = () => {
     // 2025
   });
 
-
-
-  sota.barChart({
-    section: "discipline",
-    dataFile: "assets/data/discipline/effectiveXconsequences",
-    totalResp: 735,
-    displayPercentage: true,
-    title: "Disciplinary System Effectiveness",
-    subtitle:
-      "Do you think that the new disciplinary system effectively responds to students who are caught breaking school rules?",
-    // 2024!!
-  });
 
   sota.pieChart({
     section: "discipline",
