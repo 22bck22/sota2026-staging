@@ -1151,16 +1151,6 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-
-  sota.pieChart({
-    section: "campus",
-    dataFile: "assets/data/campus/132-glorifyathletics",
-    sorted: false,
-    title:
-      "Do you think that Andover prioritizes athletics (compared to music, art, robotics, etc.)?",
-    // 2025!!
-  });
-
   sota.stackedBarChart({
     section: "campus",
     dataFile: "assets/data/campus/glorifyathleticsXvarsity",
@@ -1169,9 +1159,9 @@ window.onload = () => {
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
-    title: "Glorifying Athletics & Varisity Athletes",
+    title: "Glorifying Athletics",
     subtitle:
-      "Respondents' opinions on whether Andover glorifies athletics correlated with whether they are a varsity athlete.",
+      "Do you think Andover prioritizes/glorifies athletics (compared to music, art, robotics, etc).",
     // 2023!!
   });
 
