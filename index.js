@@ -3348,7 +3348,7 @@ window.onload = () => {
     section: "wellness",
     dataFile: "assets/data/wellness/46-social_media",
     displayPercentage: true,
-    totalResp: 779,
+    totalResp: 789,
     title: "What social media platforms do you use at Andover?",
     // 2023!!
   });
