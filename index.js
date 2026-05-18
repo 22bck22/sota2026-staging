@@ -3016,7 +3016,6 @@ window.onload = () => {
     showLegend: true,
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
-    inputIsPercentage: true,
     displayPercentage: true,
     title: "Cluster & Alcohol Use",
     subtitle: "Alcohol use by students by cluster.",
