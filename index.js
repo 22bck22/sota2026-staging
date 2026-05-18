@@ -3401,14 +3401,6 @@ window.onload = () => {
     // 2025
   })
 
-   sota.stackedBarChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/socialmediaXGPA",
-    title: "Social Media & GPA",
-    displayPercentage: true,
-    subtitle: "Daily social media usage correlated with GPA.",
-    //2025
-  })
   
   sota.bigNumber({
     section: "wellness",
