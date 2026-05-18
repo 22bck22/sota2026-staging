@@ -3542,16 +3542,6 @@ window.onload = () => {
   //   // 2023!!
   // });
 
-  sota.pieChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/isolation",
-    title: "Lonely & Isolated",
-    sorted: false,
-    subtitle: "How often do you feel lonely or isolated?",
-    margin: margin,
-    // 2023!!
-  });
-
   // sota.bigNumber({
   //   section: "wellness",
   //   title: "Percentage of students who have tested positive for Covid-19",
