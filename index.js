@@ -3024,10 +3024,10 @@ window.onload = () => {
 
   sota.bigNumber({
     section: "drugs",
-    number: "58.0%",
-    title: "normalization of drugs and alcohol",
+    number: "3.1%",
+    title: "Selling Drugs",
     subtitle:
-      "of respondents believe that the use of recreational drugs or alcohol is normalized at Andover.",
+      "of respondents have sold someone drugs, alcohol, or their prescription medication on/or off campus.",
   }); // 2025
 
   // sota.pieChart({
