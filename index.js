@@ -1225,7 +1225,7 @@ window.onload = () => {
   sota.barChart({
     section: "campus",
     dataFile: "assets/data/campus/129-school_spirit",
-    totalResp: 865,
+    totalResp: 742,
     displayPercentage: true,
     title: "School Spirit",
     subtitle: "Do you believe that Andover students have school spirit?",
