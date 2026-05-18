@@ -2982,9 +2982,9 @@ window.onload = () => {
     dataFile: "assets/data/drugs/96-tobacco",
     displayPercentage: true,
     groupLabelStyle: "onBar",
-    title: "tobacco",
+    title: "Tobacco or nicotine-based products",
     subtitle:
-      "Have you ever used any tobacco products (e.g. dipping and chewing tobacco, cigarettes, etc.)?",
+      "Have you ever used any tobacco or nicotine products (e.g. dipping and chewing tobacco, zyns, cigarettes, etc.)?",
     // 2024!!
   });
 
