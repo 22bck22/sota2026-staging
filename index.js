@@ -2937,7 +2937,6 @@ window.onload = () => {
     labelStyle: "onBar",
     groupLabelStyle: "onBar",
     displayPercentage: true,
-    inputIsPercentage: true,
     title: "Normalization of Alcohol Use",
     subtitle:
       "Is the recreational use od drugs or alcohol normalized at Andover?",
