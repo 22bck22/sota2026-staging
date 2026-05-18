@@ -2495,6 +2495,15 @@ window.onload = () => {
 
   // ------ SEX -------
 
+  sota.bigNumber({
+    section: "sex",
+    number: "31.4%",
+    title: "Sexual Activity",
+    subtitle:
+      "of respondents have engaged in sexual activity.",
+    // 2024!!
+  });
+  
   sota.barChart({
     section: "sex",
     dataFile: "assets/data/sex/70-sexual_activity",
