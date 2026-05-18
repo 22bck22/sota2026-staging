@@ -3396,16 +3396,7 @@ window.onload = () => {
     // 2025
   })
 
-    sota.stackedColumnChart({
-    section: "wellness",
-    dataFile: "assets/data/wellness/lonelinessXsykeswillingness",
-    title: "Loneliness & Sykes",
-    displayPercentage: true,
-    subtitle: "Loneliness by willingness to consult Sykes Mental Health Services.",
-    //2025
-  })
-
-    sota.stackedBarChart({
+   sota.stackedBarChart({
     section: "wellness",
     dataFile: "assets/data/wellness/socialmediaXGPA",
     title: "Social Media & GPA",
