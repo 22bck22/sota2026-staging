@@ -2980,7 +2980,7 @@ window.onload = () => {
     dataFile: "assets/data/drugs/99-drug_frequency",
     displayPercentage: true,
     totalResp: 765,
-    title: "Drug habits",
+    title: "Frequency",
     subtitle:
       "How often do you consume recreational drugs or alcohol on campus?",
     // 2025
