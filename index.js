@@ -2619,7 +2619,7 @@ window.onload = () => {
     section: "sex",
     dataFile: "assets/data/sex/79-use_protection",
     displayPercentage: true,
-    title: "Do you use protection while engaging in sexual activity?",
+    title: "Protection Usage",
     // 2024!!
   });
 
