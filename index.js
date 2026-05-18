@@ -2508,7 +2508,8 @@ window.onload = () => {
     section: "sex",
     dataFile: "assets/data/sex/70-sexual_activity",
     displayPercentage: true,
-    title: "Have you ever engaged in sexual activity?",
+    totalResp; 230,
+    title: "How frequently, on average, do you engage in sexual activity?",
     // 2024!!
   });
 
