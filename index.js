@@ -2945,28 +2945,6 @@ window.onload = () => {
   });
 
 
-  sota.pieChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/112-nicotine-product",
-    displayPercentage: true,
-    sorted: false,
-    title: "e-cigarette",
-    subtitle:
-      "Have you ever used an e-cigarette or vaped a nicotine-based product?",
-    // 2024!!
-  });
-
-  sota.pieChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/oralnicotine-product",
-    displayPercentage: true,
-    sorted: false,
-    title: "Zyn Usage",
-    subtitle:
-      "Have you ever used an oral nicotine packet (commonly referred to as a Zyn)?",
-    // 2025
-  });
-
   sota.barChart({
     section: "drugs",
     dataFile: "assets/data/drugs/98-marijuana",
@@ -3046,19 +3024,6 @@ window.onload = () => {
     // 2023!!
   });
 
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/alcoholXincome",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    displayPercentage: true,
-    title: "Income & Alcohol Use",
-    subtitle: "Alcohol use by students correlated with their household income.",
-    // 2024!!
-  });
-
   sota.bigNumber({
     section: "drugs",
     number: "58.0%",
@@ -3066,25 +3031,6 @@ window.onload = () => {
     subtitle:
       "of respondents believe that the use of recreational drugs or alcohol is normalized at Andover.",
   }); // 2025
-
-  sota.customBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/normalized",
-    shapeFile: "assets/svgs/pill-politics",
-    displayPercentage: true,
-    title:
-      "Do you think that the use of recreational drugs or alcohol is normalized at Andover?",
-  });
-
-  sota.pieChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/107-influence_friends",
-    displayPercentage: true,
-    title: "drugs and friendships",
-    title:
-      "Do you think that recreational drug or alcohol use significantly influences your friendships at Andover?",
-    // 2024!!
-  });
 
   // sota.pieChart({
   //   section: "drugs",
@@ -3104,21 +3050,6 @@ window.onload = () => {
     margin: margin,
     subtitle:
       "Have you ever used pharmaceutical drugs in the hopes of enhancing academic performance (i.e. “study drugs”) during your time at Andover?",
-    // 2024!!
-  });
-
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/studydrugsXgpa",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    inputIsPercentage: true,
-    displayPercentage: true,
-    title: "Use of Study Drugs & GPA",
-    subtitle:
-      "Whether respondents use study drugs correlated with their GPA. Editor's Note: Only data from the GPA range of 5.0 - 6.0 is used.",
     // 2024!!
   });
 
@@ -3167,32 +3098,6 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/pressureXalc",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    inputIsPercentage: true,
-    displayPercentage: true,
-    title: "Pressure & Alchohol Use",
-    subtitle:
-      "Whether respondents feel pressured to participate in drug use correlated with alchohol use.",
-    // 2024!!
-  });
-
-  sota.barChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/106-sold_drugs",
-    displayPercentage: true,
-    title: "sales",
-    margin: margin,
-
-    subtitle:
-      "Have you ever sold someone recreational drugs, alcohol, or your prescription medication?",
-    // 2024!!
-  });
 
   sota.barChart({
     section: "drugs",
@@ -3207,36 +3112,11 @@ window.onload = () => {
 
   sota.pieChart({
     section: "drugs",
-    dataFile: "assets/data/drugs/leavingcampus",
-    displayPercentage: true,
-    sorted: false,
-    title: "leaving campus",
-    subtitle:
-      "Have you ever intentionally left campus to consume recreational drugs or alcohol (off campus homes, downtown Andover, Boston)?",
-    // 2024!!
-  });
-
-  sota.pieChart({
-    section: "drugs",
     dataFile: "assets/data/drugs/111-fakeid",
     displayPercentage: true,
     title: "Fake I.D.",
     margin: margin,
     subtitle: "Have you ever purchased or do you own a fake ID?",
-    // 2024!!
-  });
-
-  sota.stackedBarChart({
-    section: "drugs",
-    dataFile: "assets/data/drugs/zynXvarsity",
-    sorted: false,
-    showLegend: true,
-    labelStyle: "onBar",
-    groupLabelStyle: "onBar",
-    inputIsPercentage: true,
-    displayPercentage: true,
-    title: "Zyn & Varsity",
-    subtitle: "Usage of Zyn by respondents who are Varsity Athletes. ",
     // 2024!!
   });
 
