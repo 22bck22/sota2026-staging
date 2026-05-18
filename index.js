@@ -2346,7 +2346,7 @@ window.onload = () => {
   sota.barChart({
     section: "diversity",
     dataFile: "assets/data/diversity/144-identity_discussion",
-    totalResp: 718,
+    totalResp; 718,
     displayPercentage: true,
     title: "Talking the Talk",
     subtitle:
