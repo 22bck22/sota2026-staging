@@ -387,9 +387,3 @@ section:before{
 }
 
 
-/* HOS Search chart — wider to prevent overflow */
-#hos-search-wide {
-    width: calc(66% - 48px) !important;
-}
-
-
