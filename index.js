@@ -2679,15 +2679,38 @@ window.onload = () => {
     // 2025
   });
 
-  // sota.bigNumber({
-  //   section: "sex",
-  //   number: "18.8%",
-  //   title: "Sex, Drugs, and Alcohol",
-  //   subtitle:
-  //     "of respondents who have consumed drugs or alcohol have had sex under the influence.",
-  //   // 2023!!
-  // });
+  sota.barChart({
+    section: "sex",
+    dataFile: "assets/data/sex/sexualharbygender",
+    showLegend: true,
+    title: "Sexual Harrassment by Gender",
+    // 2024!!
+  });
 
+  sota.barChart({
+    section: "sex",
+    dataFile: "assets/data/sex/sexualassbygender",
+    showLegend: true,
+    title: "Sexual Assault by Gender",
+    // 2024!!
+  });
+
+  sota.barChart({
+    section: "sex",
+    dataFile: "assets/data/sex/sexualharbyrace",
+    showLegend: true,
+    title: "Sexual Harrassment by Race",
+    // 2024!!
+  });
+
+   sota.barChart({
+      section: "sex",
+      dataFile: "assets/data/sex/sexualassbyrace",
+      showLegend: true,
+      title: "Sexual Assault by Race",
+    // 2024!!
+  });
+  
   // sota.stackedBarChart({
   //   section: "sex",
   //   dataFile: "assets/data/sex/sex-influence",
