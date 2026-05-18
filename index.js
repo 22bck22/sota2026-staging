@@ -3070,9 +3070,9 @@ window.onload = () => {
     section: "drugs",
     dataFile: "assets/data/drugs/103-hard_drugs",
     displayPercentage: true,
-    totalResp: 819,
+    totalResp: 766,
     title: "Hallucinogens & hard drugs",
-    subtitle: "Have you ever used hallucinogens or hard drugs?",
+    subtitle: "Have you ever used hallucinogens or hard drugs? Editors note: This graph represents the seven most used hard drugs and hallucinogens out of the 13 options respondents could chose from",
     // 2024!!
   });
 
