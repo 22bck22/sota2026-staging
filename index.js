@@ -3110,12 +3110,12 @@ window.onload = () => {
     // 2024!!
   });
 
-  sota.pieChart({
+  sota.stackedBarChart({
     section: "drugs",
     dataFile: "assets/data/drugs/109-been_sancted",
-    displayPercentage: true,
+    showLegend: true,
+    labelStyle: "onBar",
     title: "Have you ever been sanctuaried?",
-    margin: margin,
     subtitle:
       "Sanctuary: provided with a means of accessing support in situations where alcohol, drugs, tobacco, and/or nicotine are involved WITHOUT disciplinary consequences (The Blue Book)",
     // 2024!!
